@@ -1,0 +1,14 @@
+E:\DotNet\12-10-23\bin\Debug\net7.0\12-10-23.exe
+E:\DotNet\12-10-23\bin\Debug\net7.0\12-10-23.deps.json
+E:\DotNet\12-10-23\bin\Debug\net7.0\12-10-23.runtimeconfig.json
+E:\DotNet\12-10-23\bin\Debug\net7.0\12-10-23.dll
+E:\DotNet\12-10-23\bin\Debug\net7.0\12-10-23.pdb
+E:\DotNet\12-10-23\obj\Debug\net7.0\12-10-23.GeneratedMSBuildEditorConfig.editorconfig
+E:\DotNet\12-10-23\obj\Debug\net7.0\12-10-23.AssemblyInfoInputs.cache
+E:\DotNet\12-10-23\obj\Debug\net7.0\12-10-23.AssemblyInfo.cs
+E:\DotNet\12-10-23\obj\Debug\net7.0\12-10-23.csproj.CoreCompileInputs.cache
+E:\DotNet\12-10-23\obj\Debug\net7.0\12-10-23.dll
+E:\DotNet\12-10-23\obj\Debug\net7.0\refint\12-10-23.dll
+E:\DotNet\12-10-23\obj\Debug\net7.0\12-10-23.pdb
+E:\DotNet\12-10-23\obj\Debug\net7.0\12-10-23.genruntimeconfig.cache
+E:\DotNet\12-10-23\obj\Debug\net7.0\ref\12-10-23.dll
