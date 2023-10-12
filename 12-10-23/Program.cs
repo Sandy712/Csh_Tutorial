@@ -71,7 +71,102 @@
 
 //Find area of cicle
 
-double radius=2.50;
-double area=Math.PI*radius*radius;
+// double radius=2.50;
+// double area=Math.PI*radius*radius;
 
-Console.WriteLine(area);
+// Console.WriteLine(area);
+
+
+
+//Branches and loop
+
+// int a=5;
+// int b=3;
+
+// if (a+b<10){
+//     Console.WriteLine("The answer is smaller than 10");
+// }
+
+// int l=5;
+// int o=80;
+// if(l+o<50){
+//     Console.WriteLine("The answer is smaller than 50");
+// }
+// else{
+//     Console.WriteLine("The answer is greater than 50");
+// }
+
+// int a = 5;
+// int b = 3;
+// int c = 4;
+// if ((a + b + c > 10) && (a == b))
+// {
+//     Console.WriteLine("The answer is greater than 10");
+//     Console.WriteLine("And the first number is equal to the second");
+// }
+// else
+// {
+//     Console.WriteLine("The answer is not greater than 10");
+//     Console.WriteLine("Or the first number is not equal to the second");
+// }
+
+// int a = 5;
+// int b = 5;
+// int c = 4;
+// if ((a + b + c > 10) || (a == b))
+// {
+//     Console.WriteLine("The answer is greater than 10");
+//     Console.WriteLine("Or the first number is equal to the second");
+// }
+// else
+// {
+//     Console.WriteLine("The answer is not greater than 10");
+//     Console.WriteLine("And the first number is not equal to the second");
+// }
+
+
+
+// int op=0;
+// while (op<5){
+//     Console.WriteLine($"The iteration is {op}");
+//     op++;
+// }
+
+// int lp=12;
+// do{
+//     Console.WriteLine("Today day is "+lp);
+//     lp--;
+// }while(lp!=3);
+
+
+// for(int counter=0;counter<10;counter++){
+//     Console.WriteLine("Iteration is going on "+counter);
+// }
+
+// for (int row=1;row<11;row++)
+// {
+//     Console.WriteLine($"The row is {row}");
+// }
+
+// for (char col='a';col<'k';col++){
+//     Console.WriteLine($"The column us {col}");
+// }
+
+
+// for (int row = 1; row < 11; row++)
+// {
+//     for (char col = 'a'; col < 'k'; col++)
+//     {
+//         Console.WriteLine($"The cell ss ({row},{col})");
+//     }
+// }
+
+int sum=0;
+
+for(int num=1;num<=20;num++){
+    if(num%3==0){
+        sum+=num;
+    }
+}
+
+Console.WriteLine($"The final sum is {sum}");
