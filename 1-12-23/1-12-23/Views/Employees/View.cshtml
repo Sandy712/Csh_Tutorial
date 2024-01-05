@@ -1,0 +1,37 @@
+﻿@model _1_12_23.Models.UpdateEmployeeViewModel
+@{
+    ViewBag.Title = "Edit Employee detail";
+}
+
+<h2>Edit Detail</h2>
+<form method="post" action="View" class="mt-4">
+    <div class="mb-3">
+        <label for="" class="form-label">ID</label>
+        <input type="text" class="form-control" asp-for="Id" readonly/>
+    </div>
+    <div class="mb-3">
+        <label for="" class="form-label">Name</label>
+        <input type="text" class="form-control" asp-for="Name" />
+    </div>
+    <div class="mb-3">
+        <label for="" class="form-label">Email Address</label>
+        <input type="email" class="form-control" asp-for="Email" />
+    </div>
+    <div class="mb-3">
+        <label for="" class="form-label">Department</label>
+        <input type="text" class="form-control" asp-for="Department" />
+    </div>
+    <div class="mb-3">
+        <label for="" class="form-label">Phone No.</label>
+        <input type="number" class="form-control" asp-for="PhoneNo" />
+    </div>
+
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+    <button type="submit" class="btn btn-danger"
+            asp-action="Delete"
+            asp-controller="Employees">Delete</button>
+
+</form>
+
+

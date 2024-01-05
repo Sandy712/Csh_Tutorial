@@ -64,7 +64,7 @@ public class Student
 
 }
 
-public class Program
+public class ProgramP
 {
     public static void Main()
     {

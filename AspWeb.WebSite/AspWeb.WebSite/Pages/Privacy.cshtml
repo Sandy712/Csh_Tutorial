@@ -1,0 +1,16 @@
+﻿@page
+@using AspWeb.WebSite.Components
+@model PrivacyModel
+@{
+    ViewData["Title"] = "Privacy Policy";
+}
+<h1>@ViewData["Title"]</h1>
+
+<p>Use this page to detail your site's privacy policy.</p>
+<a href="e:\dotnet\aspweb.website\aspweb.website\pages\index.cshtml.cs">e:\dotnet\aspweb.website\aspweb.website\pages\index.cshtml.cs</a>
+<a href="e:\dotnet\aspweb.website\aspweb.website\pages\index.cshtml">e:\dotnet\aspweb.website\aspweb.website\pages\index.cshtml</a>
+
+@(await Html.RenderComponentAsync<ProductList>(RenderMode.ServerPrerendered));
+
+
+<script src="_framework/blazor.server.js"></script>

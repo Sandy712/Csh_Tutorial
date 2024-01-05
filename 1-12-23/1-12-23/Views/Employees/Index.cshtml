@@ -1,0 +1,35 @@
+﻿@model List<_1_12_23.Models.Domain.Employee>
+
+@{
+}
+
+<h1>
+    Employees
+</h1>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Deparment</th>
+            <th>Phone No.</th>
+            <th>    </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var item in Model)
+        {
+            <tr>
+                <td>@item.Id</td>
+                <td>@item.Name</td>
+                <td>@item.Email</td>
+                <td>@item.Department</td>
+                <td>@item.PhoneNo</td>
+
+                <td><a href="Employees/View/@item.Id">Update</a></td>
+
+            </tr>
+        }
+    </tbody>
+</table>

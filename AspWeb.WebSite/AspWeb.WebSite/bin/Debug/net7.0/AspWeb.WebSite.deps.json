@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "AspWeb.WebSite/1.0.0": {
+        "runtime": {
+          "AspWeb.WebSite.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AspWeb.WebSite/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

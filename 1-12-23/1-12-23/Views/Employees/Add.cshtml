@@ -1,0 +1,29 @@
+﻿@model _1_12_23.Models.AddEmployeeViewModel
+
+@{
+    ViewBag.Title = "Adding Employee";
+}
+
+<h2>Add Employee</h2>
+<form method="post" action="Add" class="mt-4">
+    <div class="mb-3">
+        <label for="" class="form-label">Name</label>
+        <input type="text" class="form-control" asp-for="Name"/>
+    </div>
+    <div class="mb-3">
+        <label for="" class="form-label">Email Address</label>
+        <input type="email" class="form-control" asp-for="Email" />
+    </div>
+    <div class="mb-3">
+        <label for="" class="form-label">Department</label>
+        <input type="text" class="form-control" asp-for="Department" />
+    </div>
+    <div class="mb-3">
+        <label for="" class="form-label">Phone No.</label>
+        <input type="number" class="form-control" asp-for="PhoneNo" />
+    </div>
+
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+
+</form>
